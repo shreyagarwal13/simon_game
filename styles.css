@@ -5,8 +5,13 @@ body {
 }
 
 #level-title {
-  font-size: 2.5rem;
-  margin:  5% 5.5% 3% 5.5%;
+  font-size: 3rem;
+  margin:  1% 6% 3% 6%;
+  color: #FEF2BF;
+}
+#game-title{
+  font-size: 3rem;
+  margin:  5% 6% 1% 6%;
   color: #FEF2BF;
 }
 
@@ -17,22 +22,29 @@ body {
 .game-btn {
   margin: 15px 25px;
   display: inline-block;
-  height: 180px;
-  width: 180px;
-  border: 10px solid black;
+  height: 15rem;
+  width: 15rem;
+  border: 0.8rem solid black;
   border-radius: 20%;
 }
 
 .start-btn{
   margin: 10px;
-  height: 120px;
-  width: 120px;
+  height: 10rem;
+  width: 10rem;
   display: inline-block;
-  border: 10px solid black;
+  border: 0.8rem solid black;
   border-radius: 100%;
   background-color: pink;
-  font-size: 17px;
+  font-size: 1.35rem;
   line-height: 6;
+  position:relative;
+  bottom: 23rem;
+}
+@media (max-width : 767px){
+  .start-btn{
+    bottom:0;
+  }
 }
 
 .game-over {
